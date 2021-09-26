@@ -46,12 +46,13 @@
 }
 
         // Driver method
-        let arr = [12, 34, 54, 2, 3];
-        console.log("Array before sorting<br>");
+        // let arr = [12, 34, 54, 2, 3];
+        let arr = ['s', 'u', 'm', 'p', 's', 'v', 'a', 'm', 'p'];
+        console.log("Array before sorting");
             printArray(arr);
 
             arr = sort(arr);
-            console.log("Array after sorting<br>");
+            console.log("Array after sorting");
                 printArray(arr);
 
             // This code is contributed by unknown2108
