@@ -6,8 +6,8 @@
     {
         let n = arr.length;
     for (let i = 0; i < n; ++i)
-    document.write(arr[i] + " ");
-    document.write("<br>");
+    console.log(arr[i] + " ");
+    // console.log("<br>");
 }
 
         /* function to sort arr using shellSort */
@@ -47,11 +47,11 @@
 
         // Driver method
         let arr = [12, 34, 54, 2, 3];
-        document.write("Array before sorting<br>");
+        console.log("Array before sorting<br>");
             printArray(arr);
 
             arr = sort(arr);
-            document.write("Array after sorting<br>");
+            console.log("Array after sorting<br>");
                 printArray(arr);
 
             // This code is contributed by unknown2108
