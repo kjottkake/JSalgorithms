@@ -36,6 +36,7 @@
         let j;
                 for (j = i; j >= gap && arr[j - gap] > temp; j -= gap)
         arr[j] = arr[j - gap];
+        console.log(arr); //tests output for each iteration
 
         // put temp (the original a[i]) in its correct
         // location
@@ -49,10 +50,10 @@
         // let arr = [12, 34, 54, 2, 3];
         let arr = ['s', 'u', 'm', 'p', 's', 'v', 'a', 'm', 'p'];
         console.log("Array before sorting");
-            printArray(arr);
+            console.table(arr);
 
             arr = sort(arr);
             console.log("Array after sorting");
-                printArray(arr);
+                console.table(arr);
 
             // This code is contributed by unknown2108
